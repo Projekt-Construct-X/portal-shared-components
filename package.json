@@ -1,18 +1,26 @@
 {
-  "name": "@catena-x/portal-shared-components",
-  "version": "3.7.6",
-  "description": "Catena-X Portal Shared Components",
-  "author": "Catena-X Contributors",
+  "name": "@arena2036/portal-shared-components-construct-x",
+  "version": "0.0.55",
+  "description": "Construct Portal Shared Components",
+  "author": "Construct Tractus-X Contributors",
   "license": "Apache-2.0",
   "type": "module",
-  "main": "dist/portal-shared-components.js",
+  "main": "dist/portal-shared-components-construct-x.js",
+  "module": "dist/portal-shared-components-construct-x.js",
   "types": "dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/portal-shared-components-construct-x.js",
+      "require": "./dist/portal-shared-components-construct-x.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/eclipse-tractusx/portal-shared-components.git"
+    "url": "https://github.com/ARENA2036/portal-shared-components.git"
   },
   "publishConfig": {
     "access": "public"
