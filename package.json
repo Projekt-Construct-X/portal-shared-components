@@ -1,6 +1,6 @@
 {
   "name": "@arena2036/portal-shared-components-construct-x",
-  "version": "0.0.55",
+  "version": "0.0.79",
   "description": "Construct Portal Shared Components",
   "author": "Construct Tractus-X Contributors",
   "license": "Apache-2.0",
@@ -42,9 +42,11 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
+    "@arena2036/portal-shared-components-construct-x": "^0.0.71",
     "@date-io/date-fns": "^3.0.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
+    "@fontsource/montserrat": "^5.2.6",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.2",
     "@mui/system": "^5.15.14",
